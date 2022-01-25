@@ -1,0 +1,22 @@
+{
+  "name": "iautomation-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlanh012/iAutomation-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlanh012/iAutomation-Template/issues"
+  },
+  "homepage": "https://github.com/hlanh012/iAutomation-Template#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
