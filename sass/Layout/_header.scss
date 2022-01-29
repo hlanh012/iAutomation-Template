@@ -1,0 +1,15 @@
+.header{
+    background-image: url('../img/hero-image-higher-reso.jpg');
+    background-size: cover;
+    background-position: 0 -5rem;
+    height: 94vh;
+    position: relative;
+
+    &__text-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+}

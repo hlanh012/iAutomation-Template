@@ -1,0 +1,29 @@
+body{
+    font-family: "Helvetica", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: $color-white;
+}
+
+.heading-primary{
+    color: $color-white; 
+    width: 100%;
+
+    @include respond(phone){
+        width: 47.7rem;
+    }
+    
+    
+    &--main{
+        display: block;
+        font-size: 4.2rem;
+        text-transform: uppercase;
+    }
+
+    &--sub{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 10;
+    }
+}
